@@ -1,0 +1,371 @@
+:root {
+  --forBackColor: #f4f4fd;
+  --forActiveBTNColor: #3739e4;
+  --forBTNColor: #ebebfb;
+  --forHeadingColor: #273654;
+  --forParaColor: #9d9da0;
+  --forRentDivBTNColor: #fefefe;
+  --forRentDivBTNFontColor: #4b4de5;
+  /* ------------------------------------------ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.5s;
+  color: var(--forHeadColor);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.visibilityFalse {
+  visibility: hidden;
+}
+
+.container {
+  background-color: var(--forBackColor);
+  /* border: 1px solid red; */
+  width: 90vw;
+  max-width: 950px;
+  /* height: auto; */
+}
+
+.container .row {
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+  height: fit-content;
+}
+
+.container > .row:first-child {
+  /* border: 1px solid yellow; */
+  height: 160px;
+  flex-direction: column;
+}
+
+.container > .row:nth-child(2) {
+  /* border: 1px solid pink; */
+  /* height: 800px; */
+}
+
+.containerRow3 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerRow3 .btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 40px;
+  color: var(--forHeadColor);
+}
+
+.col {
+  /* border: 1px solid green; */
+  height: fit-content;
+}
+
+.containerRow1 .col:nth-child(1),
+.containerRow1 .col:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.containerRow1 .col:nth-child(2) p {
+  width: 400px;
+  font-size: 80%;
+  font-weight: 600;
+}
+
+.containerRow1 .col:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navButtonClass {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navButtonClass .btn {
+  width: 70px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 60%;
+  font-weight: 700;
+  background-color: var(--forBTNColor);
+  color: var(--forHeadColor);
+}
+
+.navButtonClassFirst {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navButtonClassSecond {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--forActiveBTNColor);
+}
+
+.btn.active {
+  background-color: var(--forActiveBTNColor);
+  color: var(--forBackColor);
+}
+
+/* ------------card-------------- */
+
+.containerRow2 .col {
+  padding: 1%;
+}
+
+.containerRow2 .col .card {
+  width: 100%;
+  min-width: 250px;
+  max-width: 300px;
+  height: 400px;
+  position: relative;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+}
+
+.card-img-top {
+  border-radius: 10px;
+  height: 165px;
+}
+
+.rentSaleDiv {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
+.rentSaleDiv .btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 75%;
+  font-weight: 600;
+  background-color: var(--forRentDivBTNColor);
+  color: var(--forRentDivBTNFontColor);
+}
+
+.showThis {
+  display: block;
+}
+
+.hideThis {
+  display: none;
+}
+
+.rentSaleDiv .heartIconDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--forRentDivBTNColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heartIconDiv svg {
+  color: var(--forActiveBTNColor);
+}
+
+.otherDetailsDiv {
+}
+
+.popularDiv {
+  width: 125px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--forActiveBTNColor);
+  position: relative;
+  border-bottom-left-radius: 0px;
+  left: -8px;
+  top: -22px;
+}
+
+.popularDiv::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-bottom-left-radius: 6px;
+  background-color: var(--forActiveBTNColor);
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+.popularDivSpan {
+}
+
+.fourDotDiv {
+  width: 50px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 150px;
+  left: 125px;
+}
+
+.fourDotDiv div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--forRentDivBTNColor);
+}
+
+.fourDotDiv .active {
+  background-color: var(--forActiveBTNColor);
+}
+
+.locationDiv {
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  margin: -4%;
+  font-size: 80%;
+  font-weight: 600;
+}
+.locationDivSpan1 {
+}
+.locationDivSpan2 {
+}
+
+.card-title {
+  font-size: 100%;
+  width: 100%;
+}
+
+.fourIconsDiv {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.firstIcon,
+.secIcon,
+.thirdIcon,
+.fourthIcon {
+  width: 25%;
+  height: 100%;
+  font-size: 75%;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.firstIcon .para1 {
+}
+.firstIcon .para2 {
+}
+.secIcon {
+}
+.secIcon .para1 {
+}
+.secIcon .para2 {
+}
+.thirdIcon {
+}
+.thirdIcon .para1 {
+}
+.thirdIcon .para2 {
+}
+.fourthIcon {
+}
+.fourthIcon.para1 {
+}
+.fourthIcon.para2 {
+}
+.lastDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -15px;
+}
+.lastDivFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastDivFirst .span2 {
+  color: var(--forActiveBTNColor);
+}
+
+.lastDivFirst .span1 {
+  color: var(--forActiveBTNColor);
+}
+
+.lastDivSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastDivSec .btn {
+  width: 90px;
+  height: 35px;
+  border-radius: 40px;
+  font-size: 75%;
+  font-weight: 700;
+  /* background-color: transparent; */
+  background-color: var(--forBackColor);
+  color: var(--forRentDivBTNFontColor);
+}
+
+/* --------------------cardIndividual----------------------------- */
+
+.cardIndividualContainer {
+}
+
+.cardIndividualContainer .cardIndividualRow {
+}
+
+.cardIndividualContainer .card {
+  width: 100%;
+  width: 300px;
+  border: 1px solid red;
+}
+
+.cardIndividualContainer .card-img-top {
+  /* border-radius: 10px;
+  height: 200px !important; */
+}
+
+/* --------------------cardIndividual----------------------------- */

@@ -1,0 +1,103 @@
+{
+  "forRowOneData": [
+    {
+      "heading": "Featured Listed Property",
+      "para": "Real estate can be bought, sold, leased, or rented, and can be a valuable investment opportunity. The value of real estate can be..."
+    }
+  ],
+
+  "forNavData": ["New York", "Mumbai", "Paris", "London"],
+
+  "cardData": [
+    {
+      "id": 1,
+      "cardImg": "./img/img1.jpeg",
+      "lacationPara": "1_8558 Pecan St.",
+      "cardTitle": "1_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "7,277",
+      "forRentSale": "For Rent",
+      "popularTrueFalse": true,
+      "country": "New York"
+    },
+    {
+      "id": 2,
+      "cardImg": "./img/img2.jpeg",
+      "lacationPara": "2_8558 Pecan St.",
+      "cardTitle": "2_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "4,244",
+      "forRentSale": "For Sale",
+      "popularTrueFalse": true,
+      "country": "Mumbai"
+    },
+    {
+      "id": 3,
+      "cardImg": "./img/img3.jpeg",
+      "lacationPara": "3_8558 Pecan St.",
+      "cardTitle": "3_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "3,233",
+      "forRentSale": "For Sale",
+      "popularTrueFalse": false,
+      "country": "New York"
+    },
+    {
+      "id": 4,
+      "cardImg": "./img/img4.jpeg",
+      "lacationPara": "4_8558 Pecan St.",
+      "cardTitle": "4_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "9,299",
+      "forRentSale": "For Rent",
+      "popularTrueFalse": true,
+      "country": "London"
+    },
+    {
+      "id": 5,
+      "cardImg": "./img/img5.jpeg",
+      "lacationPara": "5_8558 Pecan St.",
+      "cardTitle": "5_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "1,211",
+      "forRentSale": "For Rent",
+      "popularTrueFalse": false,
+      "country": "Mumbai"
+    },
+    {
+      "id": 6,
+      "cardImg": "./img/img6.jpeg",
+      "lacationPara": "6_8558 Pecan St.",
+      "cardTitle": "6_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "8,288",
+      "forRentSale": "For Sale",
+      "popularTrueFalse": true,
+      "country": "London"
+    },
+    {
+      "id": 7,
+      "cardImg": "./img/img7.jpeg",
+      "lacationPara": "7_8558 Pecan St.",
+      "cardTitle": "7_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "6,266",
+      "forRentSale": "For Rent",
+      "popularTrueFalse": false,
+      "country": "New York"
+    },
+    {
+      "id": 8,
+      "cardImg": "./img/img8.jpeg",
+      "lacationPara": "8_8558 Pecan St.",
+      "cardTitle": "8_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "4,244",
+      "forRentSale": "For Sale",
+      "popularTrueFalse": true,
+      "country": "London"
+    },
+    {
+      "id": 9,
+      "cardImg": "./img/img9.jpeg",
+      "lacationPara": "9_8558 Pecan St.",
+      "cardTitle": "9_RCE Theaters - 907 S Beckford Dr, Henderson, NC 27536",
+      "price": "3,233",
+      "forRentSale": "For Rent",
+      "popularTrueFalse": false,
+      "country": "Paris"
+    }
+  ]
+}
